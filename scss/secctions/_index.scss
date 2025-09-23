@@ -1,0 +1,43 @@
+@use'../generales/variables';
+@use'../generales/mixins';
+.imagen_principal {
+    background-image: url(/assets/img/slideshow-h1-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    @include mixins.flex(flex,column,center,center);
+    box-shadow: 5px 5px 10px variables.$color-sobreado;
+}
+
+
+.logo {
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 80px;
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.estilo_menu {
+    text-shadow: 2px 2px 4px variables.$color-sobreado;
+}
+
+.estilo_menu a:hover {
+    color: variables.$color-menu;
+}
+
+.main_titulo {
+    grid-column: 1 / -1;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px variables.$color-sobreado;
+}
+
+.contenedor_footer {
+    background-color: variables.$color-footer;
+}

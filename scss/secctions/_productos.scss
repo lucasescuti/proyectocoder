@@ -1,0 +1,17 @@
+@use'../generales/variables';
+@use'../generales/extends';
+
+/*estilo de html.producto*/
+.imagen_secundaria {
+    background-image: url(/assets/img/Dia-de-la-salud-de-tu-mascota.jpg);
+    @extend %estructura;
+    box-shadow: 5px 5px 10px variables.$color-sobreado;
+}
+
+.imagenes_productos {
+    row-gap: 20px;
+}
+
+.borde_tarjeta {
+    box-shadow: 5px 5px 10px variables.$color-sobreado;
+}

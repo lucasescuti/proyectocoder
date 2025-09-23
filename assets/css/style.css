@@ -1,0 +1,134 @@
+.imagen_principal {
+  background-image: url(/assets/img/slideshow-h1-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 150px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 80px;
+}
+
+.logo:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.estilo_menu {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.estilo_menu a:hover {
+  color: rgb(255, 72, 0);
+}
+
+.main_titulo {
+  grid-column: 1/-1;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor_footer {
+  background-color: rgba(0, 0, 0, 0.194);
+}
+
+.imagen_secundaria, .imagen_nosotros {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+/*estilo de html.nosotros*/
+.imagen_nosotros {
+  background-image: url(/assets/img/mascotas.jpg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*estilo de html.producto*/
+.imagen_secundaria {
+  background-image: url(/assets/img/Dia-de-la-salud-de-tu-mascota.jpg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imagenes_productos {
+  row-gap: 20px;
+}
+
+.borde_tarjeta {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*medias queries
+@media(max-width:991px) {
+    .header_menu ul {
+        display: grid;
+    }
+
+    .header_titulo {
+        font-size: 18px;
+    }
+
+    .contenedor_header p {
+        padding: 7px;
+    }
+
+    .footer_menu ul {
+        display: grid;
+    }
+
+    .contenedor_header_producto {
+        height: 110px;
+    }
+
+}
+
+
+@media(max-width:480px) {
+    .header_menu ul {
+        display: grid;
+    }
+
+    .header_titulo {
+        font-size: 18px;
+    }
+
+    .contenedor_header p {
+        padding: 7px;
+    }
+
+    .footer_menu ul {
+        display: grid;
+    }
+
+    .contenedor_productos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor_header_producto {
+        height: 110px;
+    }
+
+    .contenedor_coleccion {
+        display: flex;
+        flex-direction: column;
+    }
+}*/
+
+/*# sourceMappingURL=style.css.map */
